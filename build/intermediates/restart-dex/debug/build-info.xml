@@ -5,27 +5,47 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="6947301285742"
+    timestamp="33198505265541"
     token="9202333962001469653"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="FIELD_REMOVED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="927" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="45" />
     <task
         name="verifier"
-        duration="0" />
+        duration="18" />
 
     <artifact
-        location="/Users/joeljohnson/Documents/Computer_Science/Android/Udacity/XYZReader/build/outputs/apk/XYZReader-debug.apk"
-        type="MAIN" />
+        location="/Users/joeljohnson/Documents/Computer_Science/Android/Udacity/XYZReader/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/Users/joeljohnson/Documents/Computer_Science/Android/Udacity/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
 
+    <build
+        timestamp="32898565671677"
+        verifier="BINARY_MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="/Users/joeljohnson/Documents/Computer_Science/Android/Udacity/XYZReader/build/outputs/apk/XYZReader-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="33198505265541"
+        verifier="FIELD_REMOVED" >
+        <artifact
+            location="/Users/joeljohnson/Documents/Computer_Science/Android/Udacity/XYZReader/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/joeljohnson/Documents/Computer_Science/Android/Udacity/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
+    </build>
     <build
         timestamp="87214107030646"
         verifier="FULL_BUILD_REQUESTED" >
